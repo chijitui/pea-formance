@@ -1,0 +1,25 @@
+{
+  "name": "pea-formance",
+  "version": "1.0.0",
+  "description": "🔗前端性能数据获取插件，帮助获取页面性能关键数据以及资源加载数据。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pea-fe/pea-formance.git"
+  },
+  "keywords": [
+    "front-end",
+    "performance",
+    "javascript",
+    "sdk"
+  ],
+  "author": "chijitui <johnxiao675@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pea-fe/pea-formance/issues"
+  },
+  "homepage": "https://github.com/pea-fe/pea-formance#readme"
+}
