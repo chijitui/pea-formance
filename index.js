@@ -22,12 +22,12 @@ class PeaFormance {
     }
   }
 
-  listenResourceLoad(node, callback = () => {}) {
+  listenResourceLoad(node, callback=()=>{}) {
     try {
       node.addEventListener('load', function(event) {
         try {
           let data = (this.window && this.window.performance) ?
-            resource.getInfo(performance, event.path[0].src) :
+            resource.getInfo(this.window.performance, event.path[0].src) :
             {};
           callback(null, data);
         } catch(e) {
