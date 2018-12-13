@@ -1,6 +1,7 @@
-function getNavigation(timing, origin) {
+function getTiming(timing, origin) {
   if (!timing || !origin) {
     console.log('浏览器不支持！');
+    return {};
   }
   return {
     dns: timingFormat(
@@ -49,4 +50,6 @@ function timingFormat(start, end, origin) {
   };
 }
 
-module.exports = getNavigation;
+module.exports = {
+  getTiming
+};
